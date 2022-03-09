@@ -4,14 +4,13 @@
 
     <item
         android:icon="@android:drawable/ic_input_add"
-        android:title="Cadastrar"
-        app:showAsAction="ifRoom"
         android:onClick="cadastrar"
-        />
+        android:title="@string/cadastrar"
+        app:showAsAction="ifRoom" />
     <item
         android:id="@+id/app_bar_search"
         android:icon="@drawable/ic_search_black_24dp"
-        android:title="Consulta"
+        android:title="@string/string_consulta"
         app:actionViewClass="android.widget.SearchView"
         app:showAsAction="ifRoom|collapseActionView" />
 </menu>

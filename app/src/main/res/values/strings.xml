@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">appCRUD</string>
+    <string name="telefone">Telefone</string>
+    <string name="nome">Nome</string>
+    <string name="cpf">CPF</string>
+    <string name="salvar">Salvar</string>
+    <string name="nome_hint">Nome</string>
+    <string name="telefone_hint">(xx) x xxxx - xxxx</string>
+    <string name="cpf_hint">xxx.xxx.xxx-xx</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="consulta">Consulta</string>
+    <string name="string_consulta" />
+    <string name="excluir">Excluir</string>
+    <string name="editar">Editar</string>
 </resources>

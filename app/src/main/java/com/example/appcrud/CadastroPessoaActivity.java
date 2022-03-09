@@ -41,14 +41,14 @@ public class CadastroPessoaActivity extends AppCompatActivity {
             pessoa.setNome(nome.getText().toString());
             pessoa.setCpf(cpf.getText().toString());
             pessoa.setTelefone(telefone.getText().toString());
-            Long id = dao.inserir(pessoa);
-            Toast.makeText(this, "Pessoa cadastrada com o ID: " + id, Toast.LENGTH_SHORT);
+            long id = dao.inserir(pessoa);
+            Toast.makeText(this, "Pessoa cadastrada com o ID: " + id, Toast.LENGTH_SHORT).show();
         }else{
             pessoa.setNome(nome.getText().toString());
             pessoa.setCpf(cpf.getText().toString());
             pessoa.setTelefone(telefone.getText().toString());
             dao.editar(pessoa);
-            Toast.makeText(this, "O registro foi atualizado", Toast.LENGTH_SHORT);
+            Toast.makeText(this, "O registro foi atualizado", Toast.LENGTH_SHORT).show();
         }
     }
 
